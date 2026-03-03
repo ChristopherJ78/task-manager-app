@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useTasks } from '../context/TaskContext';
-import { CheckCircle2, Circle, Trash2, Edit2, Plus, Search, Filter, X } from 'lucide-react';
+import { CheckCircle2, Circle, Trash2, Edit2, Plus, Search, Filter, X, CheckSquare } from 'lucide-react';
 import { format } from 'date-fns';
 
 const MODES = {
